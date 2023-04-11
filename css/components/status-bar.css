@@ -1,5 +1,6 @@
 .status-bar {
-    background-color: #3968b0;
+    background-color: var(--yellow);
+    color: var(--blue);
     display: flex;
     justify-content: center;
     padding: 5px 3px;

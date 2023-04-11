@@ -4,6 +4,8 @@
 @import "variables.css";
 
 /* Components */
+@import "components/badge.css";
+@import "components/dot.css";
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
@@ -23,7 +25,8 @@
 @import "screens/chat.css";
 
 body {
-    background-color: var(--yellow);
+    background-color: var(--blue);
+    height: 100vh;
     color: #2e363e;
     font-family: "Open Sans", sans-serif;
 }
